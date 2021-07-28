@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/college-website/static/css/main.6718fe52.chunk.css",
+    "main.js": "/college-website/static/js/main.c12a53c7.chunk.js",
+    "main.js.map": "/college-website/static/js/main.c12a53c7.chunk.js.map",
+    "runtime-main.js": "/college-website/static/js/runtime-main.02111e28.js",
+    "runtime-main.js.map": "/college-website/static/js/runtime-main.02111e28.js.map",
+    "static/js/2.92b8a1ca.chunk.js": "/college-website/static/js/2.92b8a1ca.chunk.js",
+    "static/js/2.92b8a1ca.chunk.js.map": "/college-website/static/js/2.92b8a1ca.chunk.js.map",
+    "static/js/3.d8188a83.chunk.js": "/college-website/static/js/3.d8188a83.chunk.js",
+    "static/js/3.d8188a83.chunk.js.map": "/college-website/static/js/3.d8188a83.chunk.js.map",
+    "index.html": "/college-website/index.html",
+    "static/css/main.6718fe52.chunk.css.map": "/college-website/static/css/main.6718fe52.chunk.css.map",
+    "static/js/2.92b8a1ca.chunk.js.LICENSE.txt": "/college-website/static/js/2.92b8a1ca.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/college-website/static/media/poly5.bf492d2a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02111e28.js",
+    "static/js/2.92b8a1ca.chunk.js",
+    "static/css/main.6718fe52.chunk.css",
+    "static/js/main.c12a53c7.chunk.js"
+  ]
+}

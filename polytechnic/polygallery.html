@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <style>
+    
+    
+ *{
+   box-sizing: border-box;
+}
+
+body{ 
+ // background-color: #f1f2f6;
+  z-index: 1;
+ 
+}
+
+header{
+  background-color: none;
+
+}
+
+
+.nav >ul{
+  list-style:none;
+  display: inline-block;
+  background-color:#757575;
+  padding:0;
+  margin-left:-10px;
+  margin-right:-10px;
+  position: fixed;
+  top:-16px;
+  text-align: center;
+  animation: none;
+  z-index: 1;
+
+}
+
+.nav >ul>li{
+ float:left;
+ position:relative;
+ left:0px;
+}
+
+.nav ul li a{
+  text-decoration:none;
+  color:yellow;
+  font-size:15px;
+  padding:13px;
+  display:block;
+  font-family: myFont;
+  transition: all 0.6s ease;
+}
+
+@font-face{
+   font-family: myFont;
+   src:url(font.ttf);
+  
+}
+
+.nav ul li a:hover{
+   background-color:black;
+}
+
+.nav input[type='search']{
+  top:5px;
+  height:35px;
+  width:330px;
+  position:relative;
+  font-family:arial;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-left: 3px;
+}
+
+.nav input[type='button']{
+  position:relative;
+  top:5px;
+  left:-1px;
+  height:35px;
+  display: inline-block;
+  width:60px;
+  background-image:url('icon.png');
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  background-position: center;
+
+}
+.nav input[type='button']:hover{
+  background-color:#E0E0E0; 
+}
+
+.arrow:after{
+  content:'\02C5';
+  font-weight: bolder;
+}
+
+ .sub{
+  display:none;
+  z-index: 1;
+ }
+.sub ul{
+  background-color:#757575;
+  padding: 0px;
+  margin-left:-10px;
+  margin-right:-10px;
+  position: relative;
+}
+
+
+.nav ul li:hover .sub{
+    
+    display:block;
+    position:absolute;
+    margin-left:0px;
+  }   
+  
+.nav ul li:hover .sub ul{
+    display:block;
+    margin:0px;
+}
+
+
+
+
+.image img{
+      margin:5px;
+      height:200px;
+      width: 180px;
+      float: left;
+      border:1px solid black;
+      position: relative;
+      top: 35px;
+}
+
+.image img:hover{
+    border:1px solid black;
+    box-shadow: -2px -2px 3px black,2px 2px 3px black; 
+
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+
+
+<div class="out_nav">
+
+  <div class="nav">
+    <ul>
+  
+      <li> <a href="polytechnic.html"> HOME  </a>   </li>
+      <li> <a href="aboutpoly.html"> ABOUT </a>   </li>
+      <li> <a href="#"> NEWS  </a>   </li>
+      <li> <a href="#"> STAFF  </a>  </li>
+      <li> 
+          <a href="#" class="arrow"> BRANCH </a> 
+            <div class="sub"> 
+              <ul>
+                   <a href="#">Civil </a>
+                   <a href="#">Computer </a>
+                   <a href="#">Electrical </a>
+                   <a href="#">E&C </a>
+                   <a href="#">Mechanical </a>
+                   
+              </ul>
+             </div>
+      </li>
+      <li> <a href="#"> PLACEMENT  </a> </li>
+      <li> <a href="#"> ALUMNI </a> </li>
+      <li> <a href="#"> ADMISSION </a> </li>
+      <li> <a href="polygallery.html" > GALLERY  </a> </li>
+      <li> <a href="#"> CONTACT  </a> </li>
+      <li> <input type="search" placeholder="Search" >     </li>
+      <li> <input type="button"></li> 
+    </ul>
+  </div>
+</div>
+
+
+
+
+<div class="image">
+
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly3.jpg">
+     <img src="poly3.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+   
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+  
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly4.jpg">
+     <img src="poly4.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly3.jpg">
+     <img src="poly3.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly1.jpg">
+     <img src="poly1.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly3.jpg">
+     <img src="poly3.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly4.jpg">
+     <img src="poly4.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly5.jpg">
+     <img src="poly5.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div> 
+  
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>
+
+  <div>
+    <a target="_blank" href="poly2.jpg">
+     <img src="poly2.jpg" alt="file can't open" height="400" width="600">   
+    </a>
+  </div>  
+
+</div>  
+
+
+</body>
+</html>
+
+
+
+
+
+
