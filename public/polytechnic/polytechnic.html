@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="jamia.png" type="image/x-icon">
+    <title>POLYTECHNIC</title>
+    
+    <style >
+     /*
+ *{
+   box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+      
+@font-face{
+  font-family: myFont;
+  src:url(font.ttf);
+}
+@font-face{
+  font-family: monotype;
+  src:url(monotype_font.ttf);
+}
+@font-face{
+  font-family: rakkas;
+  src:url(Rakkas.ttf);
+}
+
+body{ 
+ background-color: #f1f2f6;
+ border-left : 50px solid rgb(78, 74, 74);
+ margin: -10px;
+ border-right : 50px solid rgb(78, 74, 74);
+ z-index: 1;
+ overflow-x: hidden;
+}
+
+
+img.jamia_logo{
+  float: left;
+  height: 140px;
+  width:150px;
+  top:10px;
+  left:auto;
+  position:relative;
+  border-radius: 20px;
+}  
+img.polytechnic_logo{
+  float: right;
+  height: 150px;
+  width:190px;
+  top:20px;
+  right:23px;
+  border-radius: 50%;
+  position:relative;
+  box-shadow: -1px -1px 1px black,1px 1px 1px black;
+}   
+h1.university_polytechnic{
+  font-size:65px;
+  position:relative;
+  top: 35px;
+  left: 25px;
+  font-family:algerian,serif;
+  display: inline;
+  color:green;
+  z-index: -1;
+  box-shadow: 2px 2px 5px #2c3e50, -2px -2px 5px #2c3e50;
+}
+
+
+h3.jamia_millia_islamia{
+  font-size: 50px;
+  top:-15px;
+  position: relative;
+  text-align: center;
+  color:#c0392b;
+  font-family:myfont;
+  font-weight:bolder;
+  word-spacing: 7px;
+}
+
+.out_nav{
+  position: relative;
+  left: 10px;
+}
+#menu{
+   background-color:#757575;
+    position: relative;
+    top: -69px;
+    display: none;
+    height: 40px;
+  }
+.nav >ul{
+  list-style:none;
+  display: inline-block;
+  background-color:#696262;
+  padding:0;
+  margin-left:-10px;
+  margin-right:-10px;
+  position: relative;
+  top:-67px;
+  text-align: center;
+  animation: none;
+  width:100%;
+
+}
+
+.nav >ul>li{
+ float:left;
+ position:relative;
+ left:0px;
+}
+
+.nav ul li a{
+  text-decoration:none;
+  color:yellow;
+  font-size:15px;
+  padding:13px;
+  display:block;
+  font-family: myFont;
+  transition: all 0.6s ease;
+}
+
+.nav ul li a:hover{
+   background-color:black;
+}
+
+.nav input[type='search']{
+  top:5px;
+  height:35px;
+  width:345px;
+  position:relative;
+  font-family:arial;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  margin-left: 3px;
+}
+
+.nav input[type='button']{
+  position: absolute;
+  top:5px;
+  left:-60px;
+  height:35px;
+  display: inline-block;
+  width:60px;
+  background-image:url('icon.png');
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  background-position: center;
+
+}
+.nav input[type='button']:hover{
+  background-color:#E0E0E0; 
+}
+
+.arrow:after{
+  content:'\02C5';
+  font-weight: bolder;
+}
+
+ .sub{
+  display:none;
+  z-index: 1;
+ }
+.sub ul{
+  background-color:#757575;
+  padding: 0px;
+  margin-left:-10px;
+  margin-right:-10px;
+  position: relative;
+}
+
+
+.nav ul li:hover .sub{
+    
+    display:block;
+    position: absolute;
+    margin-left:0px;
+  }   
+  
+.nav ul li:hover .sub ul{
+    display:block;
+    margin:0px;
+}
+
+*/
+
+
+.image_home{
+  position: relative;
+  top:-85px;
+  display: flex;
+  z-index: -1;
+}
+.image_home img{
+  width: 260px;
+  height:165px;
+  z-index: -1;
+
+}
+
+
+.pic1{
+     
+    width:260px;
+    height:165px;
+    z-index: -1;
+    margin-left: -5px;
+    border:1px solid black;
+    margin-right: 4px;
+    animation-name: pic1;
+    animation-duration: 8s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic1{
+     0%{
+       background-image: url("poly1.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       }
+
+   100%{ 
+       background-image: url("poly5.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+}
+
+.pic2{
+     
+    width:260px;
+    height:165px;
+    margin-right: 4px;
+    z-index: -1;
+    border:1px solid black;
+    animation-name: pic2;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic2{
+     0%{
+       background-image: url("poly2.jpg");
+      background-size: cover;
+       background-repeat: no-repeat;
+       }
+
+   100%{ 
+       background-image: url("poly4.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+}
+
+
+.pic3{
+     
+    width:260px;
+    height:165px;
+    z-index: -1;
+    border:1px solid black;
+    margin-right: 4px;
+    animation-name: pic3;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic3{
+     0%{
+       background-image: url("poly3.jpg");
+      background-size: cover;
+       background-repeat: no-repeat;
+       }
+
+   100%{ 
+       background-image: url("poly2.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+}
+
+.pic4{
+     
+    width: 260px;
+    height:165px;
+    z-index: -1;
+    border:1px solid black;
+    margin-right: 4px;
+    animation-name: pic4;
+    animation-duration: 7s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic4{
+     0%{
+       background-image: url("poly2.jpg");
+      background-size: cover;
+       background-repeat: no-repeat;
+       }
+
+   100%{ 
+       background-image: url("poly3.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+}
+
+
+.pic5{
+     
+    width: 260px;
+    height:165px;
+    z-index: -1;
+    border:1px solid black;
+    animation-name: pic5;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic5{
+     0%{
+       background-image: url("poly5.jpg");
+      background-size: cover;
+       background-repeat: no-repeat;
+       }
+
+   100%{ 
+       background-image: url("poly1.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+}
+
+
+
+
+.messages{
+  display: flex;
+
+}
+
+.message_heading{
+  text-align: center;
+  color:green;
+  font-family: serif;
+  display: block;
+  text-decoration: underline;
+  z-index: -1;
+}
+.principal_photo{
+  width:  90px;
+  height: 90px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid grey;
+
+}
+
+.content_of_message{
+  position: relative;
+  top: -70px;
+  width:640px; 
+  color:blue;
+  text-align: justify;
+  padding:0px 10px 0px 5px;
+  font-family:monotype;
+  font-size: 20px;
+  z-index: -1;
+  box-shadow: 1px 1px 1px grey,-1px -1px 1px grey;
+  background-color: #f1f2f6;
+  margin: 10px;
+}
+
+/*
+footer{
+  padding: 50px 10px 0px 10px;
+  background-color: #242222;
+  height:430px;
+
+}
+
+.contact, .link,.suggestion{
+   padding-left: 15px;
+   display: inline-block;
+   padding-left:40px;
+   padding-right: 40px;
+   float: left;
+   
+}
+
+.about_us , .important_link,.suggest{
+     font-size: 25px;
+     color: rgb(218, 214, 214);
+     display: inline-block;
+     margin-bottom: 30px;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-family: rakkas;
+}
+.address,.jamia_link,.msg,.call{
+   color: rgb(156, 156, 156);    
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.jamia_link{
+  color: rgb(202, 190, 14);
+  opacity: 0.6;
+}
+.link a{
+  text-decoration: none;
+}
+
+.suggest_name,.suggest_email,.suggest_text{
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid rgb(75, 60, 60);
+  outline: none;
+  padding-left: 10px;
+  background-color: #333538;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.suggest_text{
+  height: auto;
+}
+
+.suggest_submit{
+  height: 32px;
+  padding: 3px 10px 3px 10px;
+  border-radius: 7px;
+  border: none;
+  outline:none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(202, 190, 14);
+  opacity: 0.8;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: #504e4e;
+   }
+
+.copyright{
+  background-color: #918484;
+  padding: 2%;
+  font-size: 20px;
+  text-align: center;
+  height: 110px;
+
+}
+
+.designed_by{
+  font-family: myfont;
+}
+.saqib{
+   font-weight: bold;
+   animation-name: saqib;
+   animation-duration: 700ms;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease;
+}
+
+@keyframes saqib{
+
+  0%{
+    color: #e48b62;
+  }
+
+  100%{
+     color: #e9ec0e;
+  }
+}
+
+
+@media screen and (max-width: 1357px){
+  .nav input[type='search']{
+    top: -1px;
+    
+  }
+  .nav input[type='button']{
+    top: -1px;
+  }
+  
+}
+
+@media screen and (max-width: 1327px){ h1.university_polytechnic{font-size: 60px;}
+     img.polytechnic_logo{ height: 140px; width: 180px; }
+}
+
+@media screen and (max-width: 1254px){h1.university_polytechnic{ font-size: 55px;}
+     img.polytechnic_logo{ height: 130px; width: 170px;}
+}
+
+@media screen and (max-width: 1181px){ h1.university_polytechnic{ font-size: 50px;}
+     img.polytechnic_logo{height: 120px; width: 160px;}
+     h3.jamia_millia_islamia{font-size: 45px;}
+}
+
+@media screen and (max-width: 1104px){ h1.university_polytechnic{ font-size: 45px;}
+     img.polytechnic_logo{height: 110px; width: 150px;}
+     h3.jamia_millia_islamia{font-size: 40px;}
+}
+
+@media screen and (max-width: 1034px){ h1.university_polytechnic{ font-size: 40px; left: 15px;}
+     img.polytechnic_logo{height: 100px; width: 140px;}
+     h3.jamia_millia_islamia{font-size: 40px;}
+     img.jamia_logo{height: 130px; width: 140px;  }
+     footer{height: 700px;}
+}
+
+@media screen and (max-width: 935px){ h1.university_polytechnic{ font-size: 35px; left:10px ; }
+     img.polytechnic_logo{height: 85px; width: 130px;}
+     h3.jamia_millia_islamia{font-size: 35px;}
+     img.jamia_logo{height: 110px; width: 120px;  }
+     footer{height: 800px;}
+     
+}
+@media screen and (max-width: 835px){ h1.university_polytechnic{ font-size: 35px; text-align: center ;  }
+     img.polytechnic_logo{height: 70px; width: 110px;  }
+     h3.jamia_millia_islamia{font-size: 30px;} 
+     img.jamia_logo{height: 90px; width: 100px;  }
+     footer{height: 900px;}
+}
+@media screen and (max-width: 500px){ h1.university_polytechnic{ font-size: 12px; text-align: center ; left: -10px; box-shadow:none; display: inline-block ;transform: scale(1.2,2); top: 20px; font-family: myfont;}
+     img.polytechnic_logo{height: 30px; width: 50px; right: 10px;}
+     h3.jamia_millia_islamia{font-size: 20px;  position:relative; top: 20px; 
+      margin-bottom: 100px; text-align: center;
+      } 
+     img.jamia_logo{height: 50px; width: 60px;  }
+     body{border-left: 20px solid black;border-right: 30px solid black; padding-top: 20px;}
+     footer{ height: 1100px;}
+     .copyright{height: 170px;}
+     .saqib{display: block;}
+     .nav input[type='search']{ width:100%; display: block; position: relative; left: 0px; margin-left: 0px; border: 1px solid rgb(61, 59, 59);}
+}
+
+
+
+@media screen and (max-width: 1000px){
+   .messages{    display: block;
+   }
+   .content_of_message{  
+      height: auto;
+      width: auto;
+   }
+}
+
+@media screen and (max-width:600px){
+   body{
+     
+     text-align: center;
+   }
+}
+
+@media screen and (max-width: 500px){
+     .image_home{
+       position: relative;
+       top: -65px;
+     }
+}
+@media screen and (max-width: 840px){
+    
+   .nav >ul>li{
+      float:none;
+      display: block;
+     }
+     .nav >ul{
+       display: block;
+     }
+     
+.nav ul li:hover .sub{
+    
+    display:block;
+    position: relative;
+    margin-left:0px;
+  }   
+
+  .nav ul li .sub ul a{
+     color: rgb(235, 235, 150);
+     padding-left: 50px;
+  }
+
+  .nav input[type='button']{
+    display: none;
+  }
+  .nav input[type='search']{
+    display: inline-block;
+    top: -0.5px;
+  }
+
+  .nav ul li{
+    text-align: left;
+  }
+   
+  #menu{
+    display: block;
+    position: relative;
+    top: -69px;
+   padding-left: 10px;
+   text-align: left;
+   margin-top: 55px;
+
+  }
+  #menu #menu_icon{
+      position: relative;
+      top: 5px;  
+      float: right;
+  }
+  #menu #menu_text{
+    float: left;
+    margin-right:10px;
+    color: white;
+    font-size: 25px;
+    font-family: myfont;
+    position: relative;
+    top: 5px;
+}
+
+.out_nav{
+   display: none;
+ }
+
+ .image_home .pic1,.pic2{
+   display: none;
+ }
+
+}
+*/
+
+
+</style>
+</head>
+<body>
+
+  <link rel="stylesheet" href="home_css.css">
+
+<header>
+  <a href="polytechnic.html"> 
+       <img src="jamia.png" class="jamia_logo">
+  </a>
+
+  <a href="polyjmi.jpg" target="_blank">
+       <img src="polyjmi.jpg" class="polytechnic_logo">
+  </a>
+     <h1 class="university_polytechnic"> UNIVERSITY &nbsp POLYTECHNIC </h1> <br>
+      <h3 class="jamia_millia_islamia"> JAMIA MILLIA ISLAMIA </h3>
+
+
+      <li id="menu">
+        <img src="menu.png" alt="" id="menu_icon" height="30px" width="35px"> 
+        <span id="menu_text" > MENU </span>
+       </li>
+<div class="out_nav" id="out_nav">
+  
+  <div class="nav">
+    <ul>
+      <li> <a href="polytechnic.html"> HOME </a>   </li>
+      <li> <a href="about.html"> ABOUT </a>   </li>
+      <li> <a href="#"> NEWS  </a>   </li>
+      <li> <a href="staff.html"> STAFF  </a>  </li>
+      <li> <a href="#"> STUDENT  </a>  </li>
+      <li> 
+          <a href="#" class="arrow"> BRANCH </a> 
+            <div class="sub"> 
+              <ul>
+                   <a href="#">Civil </a>
+                   <a href="#">Computer </a>
+                   <a href="#">Electrical </a>
+                   <a href="#">E&C </a>
+                   <a href="#">Mechanical </a>
+                   
+              </ul>
+             </div>
+      </li>
+      <li> <a href="#"> PLACEMENT  </a> </li>
+      <li> <a href="#"> ALUMNI </a> </li>
+      
+      <li> <a href="gallery.html" > GALLERY  </a> </li>
+       <li> <a href="contact.html"> CONTACT  </a> </li>
+      <li> <input type="search" placeholder="Search" class="search_bar">     </li>
+      <li> <input type="button" class="submit_button"></li> 
+    </ul>
+  </div>
+</div>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<div class="image_home">
+
+   
+     <div class="pic1">   </div> 
+     <div class="pic2">   </div> 
+     <div class="pic3">   </div> 
+     <div class="pic4">   </div> 
+     <div class="pic5">   </div> 
+   
+
+</div>
+
+
+<div class="messages">
+
+    <div class="content_of_message">
+      <span class="message_heading">VICE-CHANCELLOR'S MESSAGE <br></span>
+      <img src="vc.jpg" class="principal_photo" alt="vc">
+     Jamia Millia Islamia came into existence in'1920 through the tireless efforts of its founders, such as Shaikhul Hind Maulana Mahmud Hasan, Maulana Muhammad Ali Jauhar, Hakim Ajmal Khan, Dr. Mukhtar Ahmad Ansari and Dr. Zakir Husain. It symbolizes the unflinching and resolute commitment of these great visionaries in bringing about socio-economic transformation of common masses, in general, in particular through the vehicle of education.
+   </div>
+
+
+
+    <div class="content_of_message" >
+      <span class="message_heading"> PRINCIPAL'S MESSAGE<br></span>
+      <img src="mum.jpg" class="principal_photo" alt="princpal">
+      Dear Parents and Students,
+     It is with great pleasure that I welcome you to our college website.
+     As Principal I am hugely impressed by the commitment of the college and the staff to the provision of an excellent all-round education for our students in our University Polytechnic.Under my leadership, and as a team working together, we strongly promote academic achievement among our students. The cultural,sporting and other successes of all of our students and staff are also proudly celebrated together.
+   </div>
+
+</div>
+
+
+<footer>
+     
+  <div class="contact"> 
+   <span class="about_us"> CONTACT </span> <br> 
+   <img src="adress_icon.png" alt="" height="20px" width="15px"> 
+   <span class="address"> &nbsp;&nbsp;University Polytechnic,<br> 
+     &nbsp; &nbsp;&nbsp; &nbsp;Jamia Millia Islamia,<br>
+     &nbsp; &nbsp;&nbsp; &nbsp;Jamia Nagar, Okhla, <br>
+     &nbsp; &nbsp;&nbsp; &nbsp;New Delhi-110025</span> <hr> <br>
+
+     <span class="call"> <img src="call.png" alt="" height="" width="15px">
+      &nbsp; +91 9548097513 
+    </span> <hr> <br> 
+     <span class="msg"> <img src="message.png" alt="" height="" width="20px">
+      &nbsp;polytechnic@jmi.ac.in 
+    </span> <hr> <br> &nbsp; &nbsp; &nbsp;
+     <span class="social_media">
+  <a href="#"> <img src="facebook.png" alt="" height="30px" width="30px"></a> &nbsp; &nbsp;
+  <a href="#"> <img src="twitter.png"alt="" height="30px" width="30px"></a>  &nbsp; &nbsp;
+  <a href="#"> <img src="linkedin.png" alt="" height="30px" width="30px"></a>
+  </span> <hr> <br> <br> <br>
+</div> 
+
+<div class="link">
+  <span class="important_link"> INPORTANT LINKS </span> <br> <br>
+  &nbsp;&nbsp; <a href="http:\\www.jmi.ac.in" target="_blank"><span class="jamia_link"> Jamia Official Site </span></a> &nbsp;&nbsp;<br> <hr> <br>
+  &nbsp;&nbsp; <a href="http:\\www.jmicoe.in" target="_blank"><span class="jamia_link"> Jamia Exam Controller  </span></a> &nbsp;&nbsp;<br> <hr> <br>
+  &nbsp;&nbsp; <a href="http:\\jmi.ucanapply.com" target="_blank"> <span class="jamia_link"> Admission in Jamia </span></a> &nbsp;&nbsp;<br> <hr> <br>
+  <br> <br> <br>
+</div>
+
+<div class="suggestion">
+ <span class="suggest"> SUGGESTION </span> <br><br>
+  <form action="#" method="POST">
+    <input type="text" name="name" placeholder="Name" class="suggest_name"> <br><br>
+    <input type="email" name="email" placeholder="E-mail" class="suggest_email"> <br><br>
+    <textarea name="textarea" cols="25" rows="6" placeholder="Message" class="suggest_text"></textarea> <br> <br>
+   <input type="submit" name="suggestion" class="suggest_submit"> 
+</form>
+ 
+</div>
+
+</footer>
+
+
+<div class="copyright">
+   Copyright &copy; 2020 - All Rights Reserved | Privacy Policy | Terms and conditions | Help <br> <br>
+   <span class="designed_by"> This website designed by <a href="#" > <span class="saqib">  MOHD SAQIB </span> </a> </span>
+</div>
+
+
+<!--<h1> Browser size <div id="size">  </div> </h1>  -->
+
+<script src="home_js.js" >
+  //  function fun(){
+  //  document.getElementById('size').innerHTML= window.innerWidth;
+  //  }
+  //  setInterval(fun,100);
+
+ 
+ </script>
+
+</body>
+</html>

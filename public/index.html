@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>Project</title>
+
+
+    <style>
+      
+      #name{
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+            z-index: -1;
+            margin:auto;
+            background-color: rgb(226, 219, 186);
+            padding: 15% 0px;
+            margin: -10px;
+        }
+        #name h1{
+          font-family:Arial, Helvetica, sans-serif;
+          font-size: 35px;
+        }
+        .img{
+            background-image: url('elect.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            z-index: 222;
+            margin: auto;
+            animation-name: myani;
+            animation-duration: 2s;
+            animation-timing-function: step-end;
+            animation-iteration-count: infinite;
+        }
+        @keyframes myani{
+            0%{
+                background-image: url('./load_image/computer.png');
+            }
+            25%{
+                background-image: url('./load_image/civil.png');
+            }
+            50%{
+                background-image: url('./load_image/e_and_c.png');
+            }
+            75%{
+                background-image: url('./load_image/mech.png');
+            }
+        }
+      
+      
+        </style>
+
+
+
+  </head>
+  <body onload="myFunction()">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <div id="name">
+      <p class="img"></p> <br>
+      <h1>UNIVERSITY POLYTECHNIC</h1>
+  </div>
+
+
+    <script>
+			var n = document.getElementById("name");
+			function myFunction(){
+				n.style.display = 'none';
+      };
+
+		</script>
+  </body>
+</html>

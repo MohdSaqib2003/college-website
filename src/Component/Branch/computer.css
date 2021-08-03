@@ -1,0 +1,111 @@
+.comp_container{
+    border-radius : 4px;
+    border: 1px solid  #e6e3e3;
+    transition: 0.3s;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    /* background-color: white; */
+    color:'white';
+    font-size: 18px;
+    background-image : url('https://i.pinimg.com/originals/c8/67/3a/c8673ad4c46ade00cf3bd0049db62b16.jpg');
+    background-position:left,right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px 22px;
+    text-align: justify;
+}
+
+.comp_container h1{
+    font-size: 30px;
+    /* font-size: 150%; */
+    color: white;
+    border-left:5px solid white;
+    border-right:1px solid #C00404;
+    border-top:1px solid #C00404;
+    border-bottom:1px solid #C00404;
+    /* padding-left: 10px;  */
+    padding: 0px 0px 8px 10px;
+    font-weight: bold;
+    background-color: #C00404;
+    border-radius: 3px;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.comp_container h1:hover{
+    background-color:white;
+    color: #C00404;
+    border:1px solid #C00404;
+    border-left:5px solid #C00404;
+}
+.about_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.data_section{
+    width:180px;
+    height:180px;
+    /* border: 1px solid black; */
+    margin:0% 5% 0% 5%;
+    /* background-color: chocolate; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+.data_section span:first-child{
+    border: 0px;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+.data_section h2{
+    display: inline;
+    font-size: 20px;
+    color: white;
+}
+.comp_container h3{
+   background-color: black;
+   padding-left: 10px;
+   padding-bottom: 6px;
+   border: 1px solid black;
+   border-left:5px solid white;
+   color: white;
+   border-radius: 3px;
+   transition-property: all;
+   transition-timing-function: linear;
+   transition-duration: 1s;
+}
+.comp_container h3:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-left:5px solid black;
+    text-decoration: underline;
+}
+.comp_container .lab{
+   background-color: white;
+   color: black;
+   position:relative;
+   top: -20px;
+   padding: 10px;
+   /* margin: 10px; */
+   border-radius:0px 0px 3px 3px;
+}
+.comp_container .lab img{
+    /* width: 25%; */
+    margin: 10px;
+    margin-left: 0px;
+    width:300px;
+    height: 200px;
+    /* height: 10%; */
+}
+.comp_container .lab div{
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+}

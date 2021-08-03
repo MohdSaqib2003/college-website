@@ -1,0 +1,156 @@
+.alumni_head{
+    text-align: center;
+    color: rgb(42, 42, 42);
+
+}
+.alumni_head{
+    font-size: 30px;
+    
+    color: white;
+    border-left:5px solid white;
+    border-right:1px solid #C00404;
+    border-top:1px solid #C00404;
+    border-bottom:1px solid #C00404;
+ 
+    padding: 0px 0px 8px 10px;
+    font-weight: bold;
+    background-color: #C00404;
+    border-radius: 3px;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.alumni_head:hover{
+    background-color:white;
+    color: #C00404;
+    border:1px solid #C00404;
+    border-left:5px solid #C00404;
+}
+.alumni{
+    display  :flex;
+    flex-wrap : wrap;
+    justify-content : center;
+}
+.alumnus{
+    width : 300px;
+    margin : 20px;
+    border : 1px solid grey;
+}
+.alumni .alumnus img{
+    width : 300px;
+    height : 250px;
+}
+.alumni .alumnus div{
+    padding : 5px;
+    text-align: justify;
+    font-size: 15px;
+}
+.alumni .alumnus div span{
+    color:red;
+    text-decoration: none;
+}
+.alumni .alumnus .alum_link{
+    text-decoration: none;
+    color: red;
+}
+
+
+.add_btn{
+    text-align: right;
+    padding-right: 37px;
+}
+
+.add_alum{
+    background-color: rgb(8, 221, 101);
+    font-size:40px;
+    color: white;
+    width:60px;
+    text-align: center;
+    /* height:60px; */
+    border: none;
+    outline: none;
+    /* border-radius:50%; */
+    border-radius: 50%;
+    width: 48px;
+
+}
+.add_alum:hover{
+    opacity: 0.8;
+    background-color: rgb(8,212,101);
+}
+
+.form{
+    position: absolute;
+    left: 50%;
+    display: none;
+}
+.inner_form{
+    position: relative;
+    left: -50%;
+
+    background-color: black;
+    padding: 20px;
+    opacity:0.9;
+    width: 400px;
+    color: white;
+    margin: auto;
+}
+
+.alum_head{
+    /* position: relative;
+    left: -50%; */
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rakkas';
+}
+.form form input[placeholder],.about{
+    height: 35px;
+    width: 100%;
+    margin: 5px px;
+    border:none;
+    color: white;
+    border-bottom:1px solid white;
+    /* background-color: rgb(41, 40, 40); */
+    background-color: black;
+    outline: none;
+    padding-top:5px;
+    font-family:cursive;
+    /* padding:0px 10px 0px 10px; */
+    font-size: 15px;
+    /* padding: 10px; */
+}
+.form form .about{
+    height: auto;
+    width: 100%;
+    border:1px solid grey;
+    margin-top: 10px;
+}
+
+.subm,.ress{
+    background-color: blue;
+    background-color: #05b451;
+    padding: 10px;
+    color: white;
+    border-radius:2px;
+    border: none;
+    width: 90px;
+    font-size: 15px;
+    margin: 5px;
+
+}
+.ress{
+    background-color: grey;
+}
+.subm:hover{
+    background-color: rgb(2, 2, 173);
+    background-color: #019642;
+}
+.ress:hover{
+   background-color:rgb(105, 105, 105);
+}
+
+@media screen and (max-width:500px){
+    .inner_form{
+        width:290px;
+    }
+}

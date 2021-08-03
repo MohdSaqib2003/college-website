@@ -1,0 +1,134 @@
+h1{
+    /* font-size: 100px; */
+}
+
+.staff_main{
+    border-radius: 4px;
+    border: 1px solid  #e6e3e3;
+    transition: 0.3s;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    background-color: white;
+    font-size: 18px;
+    background-position: left,right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px 22px;
+}
+.staff_main h1{
+    font-size: 30px;
+    /* font-size: 150%; */
+    color: white;
+    border-left:5px solid white;
+    border-right:1px solid #C00404;
+    border-top:1px solid #C00404;
+    border-bottom:1px solid #C00404;
+    /* padding-left: 10px;  */
+    padding: 0px 0px 8px 10px;
+    font-weight: bold;
+    background-color: #C00404;
+    border-radius: 3px;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.staff_main h1:hover{
+    background-color:white;
+    color: #C00404;
+    border:1px solid #C00404;
+    border-left:5px solid #C00404;
+}
+
+.side_nav{
+    
+    /* float: left; */
+    /* background-color: aquamarine; */
+    /* border: 1px solid black; */
+    display:inline-block;
+    width:240px;
+    outline: 10px solid rgb(211, 210, 210);
+    margin:5px 20px 10px 10px;
+
+   height: fit-content;
+    width: 17%;
+}
+.side_nav nav{
+    padding:5px 10px;
+    color: rgb(59, 59, 59);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.side_nav .nav{
+    text-decoration: none;
+    color: red;
+}
+.active_class{
+   background-color: rgb(211, 210, 210);
+}
+hr{
+    background-color: rgb(211, 210, 210);
+}
+.side_nav nav:hover{
+    background-color:rgb(211, 210, 210);
+}
+
+.main_body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.route{
+    width : 75%
+}
+
+.faculty{
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #F5F5F5;
+    border-radius:3px;
+    margin-top:10px;
+    border: 1px solid rgb(194, 192, 192);
+}
+.faculty a{
+    text-decoration: none;
+}
+.faculty_pic{
+    float: right;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width:1200px){
+    .side_nav{
+        width : 240px;
+    }
+    .route{
+        width : 100%
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    .faculty_pic{
+        float: none;
+        display: block;
+        margin-left: 0;
+    }
+}

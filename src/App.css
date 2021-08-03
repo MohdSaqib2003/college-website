@@ -1,0 +1,755 @@
+@font-face{
+  font-family:"font";
+  src: local("font"),url("./fonts/font.ttf") format("truetype");
+}
+@font-face{
+  font-family:"monotype";
+  src: local("font"),url("./fonts/monotype_font.ttf") format("truetype");
+}
+@font-face{
+  font-family:"Rakkas";
+  src: local("font"),url("./fonts/Rakkas.ttf") format("truetype");
+}
+
+
+img.jamia_logo{
+  float: left;
+  height: 140px;
+  width:150px;
+  top:10px;
+  left:auto;
+  position:relative;
+  border-radius: 20px;
+}  
+
+img.polytechnic_logo{
+  float: right;
+
+  height: 130px;
+  width: 170px;;
+  top:20px;
+  right:23px;
+  border-radius: 50%;
+  position:relative;
+  box-shadow: -1px -1px 1px black,1px 1px 1px black;
+}
+
+h1.university_polytechnic{
+  font-size:65px;
+  position:relative;
+  top: 35px;
+  font-family:algerian,serif;
+  color:green;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+h1 span{
+  background-color: white;
+  box-shadow: 2px 0px 2px #2c3e50, 0px 2px 2px #2c3e50,-2px 0px 2px #2c3e50, 0px -2px 2px #2c3e50;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+h3.jamia_millia_islamia{
+  font-size: 50px;
+  top:-15px;
+  position: relative;
+  text-align: center;
+  color:#c0392b;
+  color:#C00404;
+  font-family:font;
+  font-weight:bolder;
+  word-spacing: 7px;
+}
+
+
+#central{
+  text-align: center;
+  font-size:17px;
+  position:relative;
+  /* top:-60px; */
+  top:-10px;
+  color: black;
+}
+
+
+.out_nav{
+  position: relative;
+  left: 10px;
+}
+#menu{
+   background-color:#757575;
+    position: relative;
+    top: -69px;
+    display: none;
+    height: 40px;
+  }
+.nav >ul{
+  list-style:none;
+  display: inline-block;
+  background-color:#696262;
+  padding:0;
+  margin-left:-10px;
+  margin-right:-10px;
+  position: relative;
+  top:-67px;
+  text-align: center;
+  animation: none;
+  width:100.1%;
+}
+
+.nav >ul>li{
+ float:left;
+ position:relative;
+ left:0px;
+}
+
+.nav ul li a{
+  text-decoration:none;
+  color:white;
+  font-size:15px;
+  padding:13px;
+  display:block;
+  font-family: font;
+  transition: all 0.6s ease;
+}
+
+.nav ul li a:hover{
+   background-color:black;
+}
+
+.nav input[type='search']{
+  top:5px;
+  height:35px;
+
+  width: 500px;
+  position:relative;
+  font-family:arial;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  margin-left: 3px;
+}
+
+.nav input[type='button']{
+  position: absolute;
+  top:5px;
+  left:-60px;
+  height:35px;
+  display: inline-block;
+  width:60px;
+  background-image: url('./photo/search_icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  background-position: center;
+
+}
+.nav input[type='button']:hover{
+  background-color:#E0E0E0; 
+}
+
+.arrow:after{
+  content:'\02C5';
+  font-weight: bolder;
+}
+
+ .sub{
+  display:none;
+  z-index: 1;
+ }
+.sub ul{
+  background-color:#757575;
+  padding: 0px;
+  margin-left:-10px;
+  margin-right:-10px;
+  position: relative;
+}
+
+.nav ul li:hover .sub{
+    display:block;
+    position: absolute;
+    margin-left:0px;
+
+  }   
+
+  
+.nav ul li:hover .sub ul{
+    display:block;
+    margin:0px;
+}
+
+
+
+
+
+
+
+
+.image_home{
+  position: relative;
+  top:-85px;
+  column-count: 5;
+  z-index: -1;
+}
+.image_home img{
+  z-index: -1;
+
+}
+
+
+.pic1{
+    height:165px;
+    z-index: -1;
+    border:1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: pic1;
+    animation-duration: 8s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic1{
+     0%{
+       background-image: url("./photo/poly1.jpg");
+      }
+
+   100%{ 
+       background-image: url("./photo/poly5.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+}
+
+.pic2{     
+    height:165px;
+    z-index: -1;
+    border:1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: pic2;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic2{
+     0%{
+       background-image: url("./photo/poly2.jpg");
+       }
+
+   100%{ 
+       background-image: url("./photo/poly4.jpg");
+      }
+}
+
+
+.pic3{
+    height:165px;
+    z-index: -1;
+    border:1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: pic3;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic3{
+     0%{
+       background-image: url("./photo/poly3.jpg");
+       }
+
+   100%{ 
+       background-image: url("./photo/poly2.jpg");
+      }
+}
+
+.pic4{
+    height:165px;
+    z-index: -1;
+    border:1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: pic4;
+    animation-duration: 7s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic4{
+     0%{
+       background-image: url("./photo/poly2.jpg");
+       }
+
+   100%{ 
+       background-image: url("./photo/poly3.jpg");
+       }
+}
+
+
+.pic5{
+    height:165px;
+    z-index: -1;
+    border:1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: pic5;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pic5{
+     0%{
+       background-image: url("./photo/poly5.jpg");
+      }
+
+   100%{ 
+       background-image: url("./photo/poly1.jpg");
+      }
+}
+
+
+@media screen and (max-width:840px){
+     .pic1,.pic1{
+       display: none;
+     }
+     .image_home{
+      column-count: 3;
+      margin-top: 20px;
+    }
+}
+
+.messages{
+  display: flex;
+}
+
+.message_heading{
+  text-align: center;
+  color:green;
+  font-family: serif;
+  display: block;
+  text-decoration: underline;
+  z-index: -1;
+  padding-bottom: 15px;
+}
+
+.principal_photo{
+  width:  90px;
+  height: 90px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid grey;
+}
+
+
+
+.content_of_message{
+  position: relative;
+  top: -70px;
+  color:blue;
+  text-align: justify;
+  padding:0px 10px 0px 5px;
+  font-family:monotype;
+  padding-top: 15px;
+  font-size: 20px;
+  z-index: -1;
+  border-radius:3px;
+  box-shadow: 1px 0px 1px #2c3e50, 0px 1px 1px #2c3e50,-1px 0px 1px #2c3e50, 0px -1px 2px #2c3e50;
+  background-color: white;
+  margin: 10px;
+}
+
+
+
+
+/* Footer start */
+
+footer {
+  padding: 50px 10px 0px 10px;
+  background-color: #233152;
+  height: 220px;
+
+}
+
+.contact,
+.link,.pic,
+.suggestion {
+  padding-left: 15px;
+  display: inline-block;
+  padding-left: 40px;
+  padding-right: 40px;
+  float: left;
+
+}
+.about_us,
+.important_link,
+.suggest {
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-family: rakkas;
+}
+
+.address,
+.jamia_link,
+.msg,
+.call {
+  color: rgb(190, 188, 188);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.jamia_link {
+  color: rgb(231, 227, 227);
+  opacity: 0.6;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.suggest_name,
+.suggest_email,
+.suggest_text {
+  border-radius:4px;
+  border-radius:2px;
+  height: 30px;
+
+  border: 1px solid rgb(75, 60, 60);
+  outline: none;
+  padding-left: 10px;
+  margin-top: 4px;
+  background-color: #333538;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.suggest_text {
+  height: auto;
+}
+
+.suggest_submit {
+  height: 32px;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: white;
+  position:relative;
+  top: -12px;
+  background-color: #0069D9;
+  opacity: 0.8;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.suggest_submit:hover{
+  background-color: #138496;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  background-color: #504e4e;
+}
+
+
+
+#fb:hover{
+  background-color: #1877F2;
+  border-radius: 6px;
+  outline: none;
+}
+#twrr:hover{
+  background-color: #1DA1F2;
+  border-radius: 7px;
+}
+#insta:hover{
+  background-color: #0A66C2;
+}
+
+
+
+
+
+@media only screen and (max-width:1596px){
+   footer{
+       height: 430px;
+   }
+}
+@media only screen and (max-width:928px){
+   footer{
+       height: 630px;
+   }
+}
+@media only screen and (max-width:747px){
+   footer{
+       height: 840px;
+   }
+}
+@media only screen and (max-width:629px){
+   footer{
+       height: 1040px;
+   }
+}
+
+.copyright{
+background-color: #1d1d1d;
+background-color: rgb(24, 24, 24);
+padding: 10px;
+font-size: 14px;
+color: white;
+z-index: -2;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1149px){
+  .nav input[type='search'],.nav input[type='button']{
+    top: -1px;    
+  }
+}
+
+@media screen and (max-width: 1008px){
+ .nav input[type='search'],.nav input[type='button']{top: 0px;}
+}
+
+@media screen and (max-width: 1327px){ h1.university_polytechnic{font-size: 60px;}
+     img.polytechnic_logo{ height: 120px; width: 160px; }
+}
+
+@media screen and (max-width: 1254px){h1.university_polytechnic{ font-size: 55px;}
+     img.polytechnic_logo{ height: 110px; width: 150px;}
+}
+
+@media screen and (max-width: 1181px){ h1.university_polytechnic{ font-size: 50px;}
+     img.polytechnic_logo{height: 100px; width: 140px;}
+     h3.jamia_millia_islamia{font-size: 45px;}
+}
+
+@media screen and (max-width: 1104px){ h1.university_polytechnic{ font-size: 45px;}
+     img.polytechnic_logo{height: 90px; width: 130px;}
+     h3.jamia_millia_islamia{font-size: 40px;}
+}
+
+@media screen and (max-width: 1034px){ h1.university_polytechnic{ font-size: 37px; left: 15px;}
+     img.polytechnic_logo{height: 75px; width: 115px;}
+     h3.jamia_millia_islamia{font-size: 40px;}
+     img.jamia_logo{height: 85px; width: 125px;  }
+     /* footer{height: 700px;} */
+}
+
+@media screen and (max-width: 935px){ h1.university_polytechnic{ font-size: 35px; left:10px ; }
+     img.polytechnic_logo{height: 65px; width: 100px;}
+     h3.jamia_millia_islamia{font-size: 35px;}
+     img.jamia_logo{height: 80px; width: 120px;  }
+     /* footer{height: 800px;} */
+     
+}
+@media screen and (max-width: 841px){ h1.university_polytechnic{ font-size: 32px; text-align: center ; margin-bottom: 100px; }
+     img.polytechnic_logo{height: 60px; width: 85px;  }
+     h3.jamia_millia_islamia{font-size: 30px; top: -90px; /*top: 10px; margin-bottom: 90px; left: -10%;*/} 
+     img.jamia_logo{height: 65px; width: 90px;  }
+     /* footer{height: 900px;} */
+
+
+}
+@media screen and (max-width: 797px){ h1.university_polytechnic{ font-size: 30px; text-align: center ;  }
+     img.polytechnic_logo{height: 55px; width: 80px;  }
+     h3.jamia_millia_islamia{font-size: 30px;} 
+     img.jamia_logo{height: 65px; width: 90px;  }
+     /* footer{height: 1100px;} */
+}
+@media screen and (max-width: 724px){ h1.university_polytechnic{ font-size: 25px; text-align: center ;  }
+     img.polytechnic_logo{height: 50px; width: 60px;  top: 25px; }
+     h3.jamia_millia_islamia{font-size: 25px; position: relative; } 
+     img.jamia_logo{height: 60px; width: 70px;  }
+     
+}
+@media screen and (max-width: 665px){ h1.university_polytechnic{ font-size: 21px; text-align: center ;  }
+     img.polytechnic_logo{height: 40px; width: 70px;  }
+     h3.jamia_millia_islamia{font-size: 20px;} 
+     img.jamia_logo{height: 50px; width: 80px;  }
+     
+}
+@media screen and (max-width: 622px){ h1.university_polytechnic{ font-size: 24px; text-align: center ;  }
+     img.polytechnic_logo{height: 50px; width: 80px;  }
+     h3.jamia_millia_islamia{font-size: 20px; /*left: -10%;*/} 
+     img.jamia_logo{height: 70px; width: 80px;  }
+     
+}
+@media screen and (max-width: 600px){ h1.university_polytechnic{ font-size: 18px; text-align: center ;}
+     img.polytechnic_logo{height: 40px; width: 65px;  }
+     h3.jamia_millia_islamia{font-size: 18px; /*margin-top: 30px;*/}  
+     img.jamia_logo{height: 60px; width: 70px;  }
+     
+}
+
+
+@media screen and (max-width: 520px){ h1.university_polytechnic{ font-size: 18px; text-align: center ; left: -10px; box-shadow:none; display: inline-block ;transform: scale(1.2,2.2); top: 20px; font-family: myfont;}
+     img.polytechnic_logo{height: 25px; width: 45px; right: 10px; display: none; }
+     h3.jamia_millia_islamia{font-size: 24px;  position:relative; top: -75px; 
+      margin-bottom: -55px; text-align: center; left: 0px;} 
+     img.jamia_logo{height: 45px; width: 55px; display: none; }
+     body{border-left: 20px solid black;border-right: 30px solid black; padding-top: 20px;}
+  
+     .nav input[type='search']{ width:100%; display: block; position: relative; left: 0px; margin-left: 0px; border: 1px solid rgb(61, 59, 59);}
+     
+     body{
+       border-left:0px;
+       border-right: 0px;
+     }
+     #menu_text{
+       padding-left:5px;
+      }
+      #menu_icon{
+       margin-right:20px;
+
+     }
+}
+
+
+
+@media screen and (max-width: 1000px){
+   .messages{    display: block;
+   }
+   .content_of_message{  
+      height: auto;
+      width: auto;
+   }
+}
+
+@media screen and (max-width:600px){
+   .header{
+     text-align: center;
+   }
+
+}
+
+
+@media screen and (max-width: 840px){
+    
+   .nav >ul>li{
+      float:none;
+      display: block;
+     }
+     .nav >ul{
+       display: block;
+     }
+      
+.nav ul li:hover .sub{
+    
+    display:block;
+    position: relative;
+    margin-left:0px;
+  }   
+
+  .nav ul li .sub ul a{
+     color: rgb(235, 235, 150);
+     padding-left: 50px;
+  }
+
+  .nav input[type='button']{
+    display: none;
+  }
+  .nav input[type='search']{
+    display: inline-block;
+    top: -0.5px;
+  }
+
+  .nav ul li{
+    text-align: left;
+  }
+   
+  #menu{
+    display: block;
+    position: relative;
+    top: -69px;
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 55px;
+
+  }
+  #menu #menu_icon{
+      position: relative;
+      top: 5px;  
+      float: right;
+  }
+  #menu #menu_text{
+    float: left;
+    margin-right:10px;
+    color: white;
+    font-size: 25px;
+    font-family: myfont;
+    position: relative;
+    top: 5px;
+}
+
+.out_nav{
+   display: none;
+ }
+
+ .image_home .pic1,.pic2{
+   display: none;
+ }
+
+
+}
+
+
+
+@media screen and (min-width: 840px){
+  .nav li a:hover{
+    color: white;
+  }
+  .menu_ani:hover{
+    animation-name: myline;
+    animation-duration: 500ms;
+    animation-iteration-count:1;
+    animation-timing-function:linear;
+
+  }
+  @keyframes myline{
+    0%{
+      transform: rotate(90deg);
+    }
+    25%{
+      transform: rotate(180deg);
+    }
+    50%{
+      transform: rotate(270deg);
+    }
+    75%{
+      transform: rotate(360deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  }
